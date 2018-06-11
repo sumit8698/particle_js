@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Particles Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header">
+  <a class="navbar-brand" href="#"><h3>WebEngineer</h3></a>
+  </div>
+  <div>
+  <ul class="nav navbar-nav navbar-right">
+  <li><a href="index.html"><h3>Home</h3></a></li>
+  <li><a href="sign_in.html"><h3>Sign in</h3></a></li>
+  <li><a href="index.html"><h3>Sign up</h3></a></li>
+  </ul>
+  </div>
+
+  </nav>
+
+  <style>
+  #bc {
+
+      margin-right: 300px;
+      margin-left: 200px;
+
+  }
+  </style>
+
+
+  <div class="jumbotron" style="background-color:hsl(0, 0%, 71%); margin-top: 86px">
+  <h1 style="color:hsl(0, 0%, 100%);" class="container">WebEngineer</h1>
+
+  <h2 id="bc" style="text-align:right; color:hsl(0, 0%, 100%); margin-right: 215px;">Create an account.</h2>
+  </div>
+
+
+  <div id="particles-js">
+    <div id="login">
+      <form>
+        <div>
+          <label for="username">FirstName:-</label>
+
+          <input type="text" placeholder="FirstName">
+          <br>
+          <label for="username">lastName:-</label>
+
+          <input type="text" placeholder="lastName">
+          <br>
+
+          <label for="username">Email Id:-</label>
+
+          <input type="text" placeholder="Email Id">
+          <br>
+        </div>
+
+        <div>
+          <label for="password">Password:-</label>
+
+          <input type="text" placeholder="Password">
+        </div>
+        <input type="submit" value="Sign up">
+      </form>
+    </div>
+
+
+
+
+  </div>
+
+  <div style="color:hsl(0, 0%, 100%); background-color:#000000;">
+    <h2 class="container">Contact us</h2>
+
+  <span class="glyphicon glyphicon-envelope "></span>sumitagrawal354@gmail.com
+  <br>
+  <span class="glyphicon glyphicon-earphone "></span>9764357xxx
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function(){
+      console.log('particles.json loaded...');
+    });
+  </script>
+</body>
+</html>
